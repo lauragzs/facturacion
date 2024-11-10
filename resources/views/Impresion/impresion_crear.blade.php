@@ -26,7 +26,6 @@
                         <div id="contenedorVistaPrevia" style="display: none;">
                             <img id="vistaPrevia" src="#" alt="Vista previa de la imagen" style="max-width: 200px; max-height: 200px;">
                         </div>
-                    </form>
                 </div>
             </div>
 
@@ -36,7 +35,6 @@
                     <h4 class="card-title" style="color: #333;">Configuración de Impresión</h4>
                 </div>
                 <div class="card-body" style="padding-left: 0;">
-                    <form>
                         <label><strong>Tipo de Impresión:</strong></label><br>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="tipoimp" id="rollo" value="rollo" checked>

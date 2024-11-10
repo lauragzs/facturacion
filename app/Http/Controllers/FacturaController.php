@@ -132,7 +132,7 @@ public function store(Request $request)
     ];
 
     // Obtener el logo de la impresión
-    $impresion = Impresion::first(); // O ajusta la consulta según sea necesario
+    $impresion = Impresion::findOrFail($factura->id_user); // O ajusta la consulta según sea necesario
 
     // Generar el PDF usando la vista
     $pdf = Pdf::loadView('Facturas.factura_pdf', compact('facturaData', 'impresion'));
